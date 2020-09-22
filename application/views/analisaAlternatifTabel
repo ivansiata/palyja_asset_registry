@@ -1,0 +1,41 @@
+<div class="row">
+		  <div class="col-xs-12 col-md-3">
+			<div class="form-group">
+				<label>Kriteria Pertama</label>
+			</div>
+		  </div>
+		  <div class="col-xs-12 col-md-6">
+			<div class="form-group">
+				<label>Pernilaian</label>
+			</div>
+		  </div>
+		  <div class="col-xs-12 col-md-3">
+			<div class="form-group">
+				<label>Kriteria Kedua</label>
+			</div>
+		  </div>
+		</div>
+		<?php foreach($analisaAlternatif as $af=>$isi){ ?>
+		<div class="row">
+		  <div class="col-xs-12 col-md-3">
+			<div class="form-group">
+				<input type="text" class="form-control" value="<?php echo $isi->alternatif_pertama ?>" readonly />
+			</div>
+		  </div>
+		  <div class="col-xs-12 col-md-6">
+			<div class="form-group">
+				<select class="form-control" id="selectNilai<?php echo $ak+1?>">
+					<?php foreach ($dataNilai as $dn => $isiN) { ?>
+					<option value="<?php echo $isiN->jum_nilai ?>"><?php echo $isiN->jum_nilai." - ".$isiN->ket_nilai ?></option>
+					<?php }?>
+				</select>
+			</div>
+		  </div>
+		  <div class="col-xs-12 col-md-3">
+			<div class="form-group">
+				<input type="text" class="form-control" value="<?php echo $isi->alternatif_kedua ?>" readonly />
+			</div>
+		  </div>
+		</div>
+		<?php } ?>
+		<button type="submit" name="subankr" class="btn btn-primary"> Analyze <span class="fa fa-arrow-right"></span></button>

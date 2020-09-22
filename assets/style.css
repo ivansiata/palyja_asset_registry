@@ -1,0 +1,702 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	min-height: 100%;
+	font-size: 12px;
+	margin: 0px auto;
+	padding: 0;
+	padding-bottom: 0px auto;
+	font-family: inherit;
+}
+
+.loader{
+	position: fixed;
+	left:0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: url('../gambar/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.carousel-control{
+		opacity: 100 !important;
+		background-image: none !important;
+	}
+
+.carousel{
+	height: 420px;
+	width: 100%;
+
+}
+
+#gambar img{
+		margin-left: 0px;
+		margin-top: 8px;
+		height: 450px;
+		width: 550px;
+		max-height: 450px;
+		max-width: 550px;
+		border:1px solid black;
+
+}
+
+#mandatory{
+	margin-top: 20px;
+}
+
+hr{
+	border-top: 1px solid rgba(0,0,0,.3);
+
+}
+
+td{
+	margin-right: 20px;
+
+}
+
+
+
+.error{
+	color: red;
+}
+
+#buttonBox{
+	display: inline-block;
+	background-color: #EDEAE5;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.mandatory table td:first-child{
+	border-right: 1px solid rgba(0,0,0,.3);
+}
+
+.detail1{
+	display:none;
+	height: 290px;
+	overflow: auto;
+}
+
+.navbar-header li{
+	display: inline-block;
+}
+
+.navbar-header li a{
+	float: left;
+	margin-right: 20px;
+}
+
+.sidebar-brand span{
+	height: 33px;
+}
+
+nav{
+	height: 10px;
+}
+
+#wrapper2{
+	height: 100%;
+
+}
+
+#wrapper .main{
+	margin-left: 0;
+	margin-top: 30px;
+	transition: all .4s ease 0s;
+}
+
+.sidebar{
+	width: 0px;
+	padding:0;
+	transition: all .4s ease 0s;
+}
+
+#wrapper{
+	min-height: 100%;
+	position: relative;
+	margin-bottom: 15px
+}
+
+#wrapper.active .main{
+	padding-left:120px;
+	transition: all .4s ease 0s;
+}
+
+#wrapper.active #sidebar{
+	width: 110px;
+	transition: all .4s ease 0s;
+}
+
+.mandatory{
+	width: 900px;
+}
+
+.detail1{
+	background-color: #EDEAE5;
+}
+
+#excel{
+	height: 250px;
+}
+
+#panel{
+	width: 280px;
+	margin-left: 8px;
+}
+
+.panel-body{
+	height: 180px;
+}
+
+#inputForm{
+	width: 400px;
+	margin-top: 20px;
+	background-color: #F0F0F0;
+	padding-top: 20px;
+	padding-left: 33px;
+	margin-left: 32.7%;
+	box-shadow: 0px 0px 3px;
+	font-weight: bold;
+}
+	
+#inputForm tr{
+	border-bottom: 10px solid transparent;
+}
+
+#inputForm2{
+	width: 400px;
+	margin-top: 20px;
+	background-color: #F0F0F0;
+	padding-top: 20px;
+	padding-left: 70px;
+	
+	box-shadow: 0px 0px 3px;
+	font-weight: bold;
+}
+
+#inputForm2 tr{
+	border-bottom: 10px solid transparent;
+}
+
+#panelnew{
+	width: 280px;
+	margin-left: -3%;
+	margin-top: 20px;
+	box-shadow: 0px 0px 3px;
+}
+
+#inputPage a{
+	text-decoration: none;
+	font-style: none;
+	color: inherit;
+	background-color: transparent;
+	padding: 0;
+}
+
+#home{
+	height: 100%;
+}
+
+#home a{
+	text-decoration: none;
+	font-style: none;
+	color: inherit;
+	background-color: transparent;
+	padding: 0;
+	font-size: 22px;
+}
+
+#home2 a{
+	text-decoration: none;
+	font-style: none;
+	color: inherit;
+	background-color: transparent;
+	padding: 0;
+	font-size: 22px;
+}
+
+
+#mainTable{
+	margin-top: 5px;
+}
+
+#mainTable th{
+		border: 1px outset #f0f0f0;
+		border-top: white !important;
+		background: #F5F3EE;
+		background-image: url('tool_sfondo.png');
+		line-height: 12px;
+		background-position: fixed;
+		text-align: center;
+		padding-top: 7px;
+		padding-bottom: 7px; 
+}
+
+#viewTable th{
+		border: 1px outset #f0f0f0;
+		border-top: white !important;
+		background: #F5F3EE;
+		background-image: url('tool_sfondo.png');
+		line-height: 12px;
+		background-position: fixed;
+		text-align: center;
+		padding-top: 7px;
+		padding-bottom: 7px; 
+}
+
+#mainTable input{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	font-size: 12px; 
+}
+
+#mainTable select{
+	background-color: transparent;
+	border:none;
+	width: 98%;
+	height: 90%;
+	margin-right: 1px;
+}
+
+.required>.chosen-single{
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	
+}
+
+#mainTable .chozen input{
+	border:1px solid grey;
+}
+
+
+.custom{
+		background-color: white;
+		margin-bottom: 2px;
+		width: 100%;
+		
+		height: 30px;
+		
+}
+
+.custom td{
+	font-size: 11px;
+	text-align: center;
+	height: 45px;
+	word-wrap: break-word;
+	padding: 1px;
+}
+
+#mainTable th {
+    text-align: center;
+    display: table-cell;
+    height: 3px;
+}
+
+#mainTable td {
+    word-wrap: break-word
+}
+
+
+#viewTable th {
+    text-align: center;
+    display: table-cell;
+    height: 26px;
+    padding: 2px;
+    font-size: 11px;
+}
+
+	
+	.row10{
+		background-color: #e1e8ff;
+	}
+
+	.row11{
+		background-color: #f4f4f4;
+	}
+
+	.row1{
+		background-color: #f5f7fd;
+	}
+
+	#tAss{
+		width: 9%;
+	}
+
+	#tAssetName{
+		width: 9%;
+	}
+
+	#tLoc{
+		width: 11%;
+	}
+
+	#tUnit{
+		width: 7%;
+	}
+
+	#tBar{
+		width: 9%;
+	}
+
+	#tBra{
+		width: 8%;
+	}
+
+
+	#tType{
+		width: 5%;
+	}
+
+	#tDim{
+		width: 5%;
+	}
+
+	#tPurch{
+		width: 8%;
+	}
+
+	#tInst{
+		width: 8%;
+	}
+
+	#tAct{
+		width: 6%;
+	}
+
+	#tStat{
+		width: 5%;
+	}
+
+
+
+	.ui-dialog{
+		overflow: visible !important;
+	}
+
+	#inputPage img{
+		width: 60px;
+		height: 60px;
+		margin-top: -6px;
+	}
+
+	#home img{
+		width: 180px;
+		height: 180px;
+		margin-top: -6px;
+	}
+
+	#home2 img{
+		width: 90px;
+		height: 90px;
+		margin-top: -6px;
+	}
+
+
+	#tableDoc{
+		background-color: #F0F0F0;
+		width:70%; 
+		height:100%; 
+		margin-top:15px;
+		margin-left: 15%;
+		box-shadow: 0px 0px 3px;
+		padding-top: 5px;
+	}
+
+	#mid-content table td{
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	#detailForm tr{
+	border-bottom: 10px solid transparent;
+	}
+
+	#locationForm select {
+
+		text-align-last: center;
+		font-family: 20px;	
+	}
+
+	#conditionTable th, #conditionTable td{
+		text-align: center;
+
+	}
+
+	#searchPanel{
+		position: fixed;
+		right: 0;
+		height: 95vh;
+		background-color: #2B2B2B;
+		bottom: 0;
+	}
+
+	#searchBox{
+		background-color: #f7f7f7;
+		margin-top: 40px;
+		padding:1px 10px 16px 10px;
+		border-radius: 2px;
+	}
+
+	#searchBox select, #searchBox input{
+		width: 90px;
+		border-radius: 2px;
+		color: black;
+		margin: 5px;
+	}
+
+	#searchBox li{
+		list-style: none;
+		
+	}
+
+	#searchBox table{
+		margin-left: 2%;
+	}
+
+	#searchBox td{
+		width: 100px;
+	}
+	
+	#assetStatusPie i, #assetConditionPie i, #percentgraph i{
+		font-size: 1.5em;
+		height: 10px;
+		margin-top: 8px;
+	}
+
+	#formDetail{
+		
+	}
+
+	.form{
+		background-color: #f5f7fd;
+		box-shadow: 2px 2px 3px #888888;
+		font-size: 11px;
+	}
+
+	.form{
+		background-color: #f5f7fd;
+		margin-top: 2%;
+		box-shadow: 2px 2px 3px #888888;
+		font-size: 11px;
+	}
+
+	.form{
+		margin-left: -10px;
+		width: 90%;
+		
+		padding: 10px 10px 10px 27px;
+		
+		overflow: auto;
+		max-height: 460px;
+		z-index: -1;
+	}
+
+	.form tr{
+		text-align: left;
+		padding-right: 2px;
+		margin-top: 2%;
+		font-size: 13px;
+		width: 600px;
+		border-top: 2px solid;
+		border-bottom: 2px solid;
+		border-color: transparent;
+	}
+
+	.form td input, .form td select, .form td textarea{
+		margin-left: 10px;
+	}
+
+	.chozenSelect input{
+		margin-left: 0px !important;
+	}
+	
+	.chozenSelect .chosen-container{
+		margin-left:10px;
+	}
+
+	.ui-dialog{
+		overflow: initial !important
+	}
+
+	.chozenSelect .chosen-container .chosen-drop{
+		position: relative;
+		display: none;
+		top: auto;
+		bottom: auto;
+		width: 20%;
+	}
+	.chozenSelect .chosen-container.chosen-with-drop .chosen-drop{
+		display: block;
+		left: auto;
+		width: 160px;
+	}
+
+	#gambar img{
+		margin-top: 10%;
+		height: 380px;
+		width: 450px;
+		max-height: 450px;
+		max-width: 550px;
+		border:1px solid black;
+
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+	    top: 59% !important;
+	}
+
+	#assessmentForm{
+		display: inline-block;
+		width: 100%;
+		background-color: #F0F0F0;
+		padding-top: 20px;
+		box-shadow: 0px 0px 3px;
+	}
+
+	#detailDataAhp .panel-body{
+		height:auto;
+	}
+
+	#bodytable td{
+		vertical-align: middle;
+	}
+
+	#panelAnalisaKriteria .panel-body{
+		height:auto;
+	}
+
+	#sideBarAHP .panel-body{
+		height:auto;
+	}
+
+	#tabelPrio td table{
+		margin:0;
+		border:0 !important;
+	}
+
+	#tabelPrio td table tr:first-child td{
+		margin:0;
+		border-top:0 !important;
+	}
+
+	.chartWrapper{
+		position: relative;
+		overflow-x: scroll; 
+	}
+
+	.chartWrapper > canvas{
+		position: absolute;
+		left: 0;
+		top:  0;
+		pointer-events:none;
+	}
+
+	.chartAreaWrapper{
+		max-width: 1000;
+		
+	}
+
+	 #laporan .btn span.glyphicon{
+		opacity: 0;
+	}
+
+	#laporan .btn.active span.glyphicon{
+		opacity: 1;
+	}
+
+	#legendReport li{
+		margin-bottom: 5px;
+	}
+
+	#laporan .btn-primary{
+		background-color: #000 !important;
+	}
+
+	#laporan .btn-info{
+		background-color: yellow !important;
+		border-color: yellow !important; 
+	}
+
+	#laporanFormAsses input{
+		text-align: center;
+	}
+
+	#laporanFormAsses tr{
+	border-bottom: 10px solid transparent;
+	}
+
+	#tableHasilAssess td, #tableHasilAssess th{
+		border: #ddd solid 2px !important;
+	}
+
+	#tableHasilAssess{
+		margin-top: 15px;
+		box-shadow: 0px 0px 1px 1px #888888;
+	}
+
+	#laporanFormAsses label{
+		border:1px solid black; 
+		width:15%; 
+		text-align:center
+	}
+
+	#space{
+	
+		margin-bottom: 5px;
+	}
+
+	.footer-bottom {
+		position: relative;
+	    background-color: grey;
+	    height: 30px;
+	   	width: 100%;
+	    bottom:0px;
+	    z-index: 2 !important;
+	}
+	.copyright {
+	    color: #fff;
+	    line-height: 15px;
+	    min-height: 30px;
+	    padding: 7px 0;
+	}
+	.design {
+	    color: #fff;
+	    line-height: 30px;
+	    min-height: 30px;
+	    padding: 7px 0;
+	    text-align: right;
+	}
+	.design a {
+	    color: #fff;
+	}
+
+	.binreq{
+		color: red;
+	}
+
+	#tableInfo th{
+		text-align: center;
+	}
+
+	#proses img{
+		position: absolute;
+		margin-top: -120px;
+		margin-left: 17px;
+		width: 300px;
+		z-index: -1;
+		opacity: 0.2;
+	}
